@@ -8,7 +8,7 @@ class res_partner(osv.osv):
 	_name = 'res.partner'
 	_inherit = 'res.partner'
 	_columns = {
-	   'preciocosteusd' : fields.boolean('preciocosteusd'),
+	   'preciocostousd' : fields.boolean('preciocosteusd'),
 	}
 
 res_partner()
